@@ -1,5 +1,16 @@
 ![js13k logo](./js13k-logo.png) 
 
+# Dev mode
+* Make sure aframe-watcher is installed globally using `npm install -g aframe-watcher`
+* Run from src folder in a seperate terminal instance: `aframe-watcher`
+* Make sure inspector component is set in index.html `<a-scene>`
+* `npm run start` and press `<ctrl> + <alt> + i` to inspect the scene.
+* Press the save button to save any changes
+* Accept changes in terminal
+
+If it doesnt work. Make sure there is an id on the entity
+
+
 # JS13K A-Frame Boilerplate
 
 This project is a boilerplate to start developing a WebXR game based on [A-Frame](https://aframe.io/) and [Webpack](https://webpack.js.org/) for the [js13k competition](https://2019.js13kgames.com/).

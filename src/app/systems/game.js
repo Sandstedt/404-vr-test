@@ -8,9 +8,9 @@ AFRAME.registerSystem('game', {
 
         // Example summon a custom entity
         this.box = new Box(0, 2, -5, {
-           width: 2,
-           height: 2,
-           depth: 2
+           width: 1,
+           height: 1,
+           depth: 1
         });
     },
 

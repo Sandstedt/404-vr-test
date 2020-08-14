@@ -27,7 +27,8 @@ export class Box {
     }
 
     update(time, timeDelta) {
-        let rotation = this.el.getAttribute('rotation');
-        this.el.setAttribute('rotation', { y: rotation.y + 0.01 * timeDelta });
+        this.el.object3D.rotation.y += 0.001 * timeDelta;
+        // var rotation = this.el.getAttribute('rotation');
+        // this.el.setAttribute('rotation', { y: rotation.y + 0.02 * timeDelta });
     }
 }
