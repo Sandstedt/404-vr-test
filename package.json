@@ -11,7 +11,7 @@
   },
   "main": "src/main.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --https",
     "dev": "aframe-watcher src/index.html",
     "build": "webpack --mode production",
     "postbuild": "node postbuild.js"
