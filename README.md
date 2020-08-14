@@ -1,14 +1,16 @@
 ![js13k logo](./js13k-logo.png) 
 
 # Dev mode
-* Make sure aframe-watcher is installed globally using `npm install -g aframe-watcher`
-* Run from src folder in a seperate terminal instance: `aframe-watcher`
+* Start the dev server with `npm run start`
+
+To use the aframe watcher and visual inspactor:
+* Run the dev script in a seperate terminal: `npm run dev`
 * Make sure inspector component is set in index.html `<a-scene>`
-* `npm run start` and press `<ctrl> + <alt> + i` to inspect the scene.
+* In your browser, press `<ctrl> + <alt> + i` to inspect the scene.
 * Press the save button to save any changes
 * Accept changes in terminal
 
-If it doesnt work. Make sure there is an id on the entity
+(If it doesnt work. Make sure there is an id on the entity)
 
 
 # JS13K A-Frame Boilerplate

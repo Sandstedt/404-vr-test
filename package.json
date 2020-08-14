@@ -12,6 +12,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "dev": "aframe-watcher src/index.html",
     "build": "webpack --mode production",
     "postbuild": "node postbuild.js"
   },
@@ -28,6 +29,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "aframe-extras": "^6.1.0"
+    "aframe-extras": "^6.1.0",
+    "aframe-watcher": "^1.4.0"
   }
 }
